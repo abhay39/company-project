@@ -1,0 +1,21 @@
+.task-item {
+    background-color: #fff;
+    color: black;
+    font-weight: 500;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 8px;
+    user-select: none;
+    cursor: grab;
+  }
+  
+  .task-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .task-item:active {
+    cursor: grabbing;
+  }
+  
+  

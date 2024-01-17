@@ -1,0 +1,30 @@
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+}
+.title{
+  font-size: 3rem;
+}
+  
+.task-lists {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+  
+.categoryContainer{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+@media screen and (min-width: 420px) {
+  .categoryContainer {
+    flex-direction: column;
+  }
+}

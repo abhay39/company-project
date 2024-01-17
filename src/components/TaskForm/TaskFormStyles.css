@@ -1,0 +1,57 @@
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .task-form input,
+  .task-form select,
+  .task-form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .task-form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .task-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .inputBox{
+    font-size: 1.4rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+
+  .categoryBox{
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+
+  #addBtn{
+    font-size: 2.2rem;
+    width: 100px;
+    border: none;
+    outline: none;
+  }
+  
+
+  @media screen and (max-width: 480px) {
+    .inputBox{
+      font-size: 0.8rem;
+    }
+    .categoryBox{
+      font-size: 0.5rem;
+    }
+  }
+  

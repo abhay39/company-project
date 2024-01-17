@@ -1,0 +1,13 @@
+.app-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .task-lists {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  
