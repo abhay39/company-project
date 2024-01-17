@@ -15,6 +15,17 @@ Welcome to the Task Manager App! This application is designed to help you manage
 
 ## Features
 
+Responsibility Division
+Component Structure:
+Divided the application into the following components:
+
+TaskList: Manages the display of tasks within a category.
+TaskItem: Represents an individual task.
+TaskForm: Allows users to add new tasks.
+Single Responsibility:
+
+Ensured each component has a single responsibility for better maintainability.
+
 1. **Task Form:**
    - Use the task form to easily add new tasks.
    - Assign a category to each task for better organization.
