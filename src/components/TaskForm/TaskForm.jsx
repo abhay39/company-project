@@ -8,10 +8,10 @@ const TaskForm = ({ onTaskAddition }) => {
   const handleAddTask = () => {
     if(title.length>0){
       onTaskAddition(title,category);
-    }else{
-      alert('Please add a title')
       setTitle('');
       setCategory('Added');
+    }else{
+      alert('Please add a title')
     }
   };
 
