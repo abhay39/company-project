@@ -46,7 +46,7 @@ Follow these steps to get the Task Manager App up and running on your local mach
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/task-manager-app.git
+    git clone https://github.com/abhay39/task-manager-app.git
     cd task-manager-app
     ```
 
