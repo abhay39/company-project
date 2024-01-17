@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+![image](https://github.com/abhay39/company-project/assets/84112755/185cb41a-8651-462b-b1b8-c4334a7ee2ef)
+![image](https://github.com/abhay39/company-project/assets/84112755/0e510f62-42a7-46ad-8c8d-e72f4bce2d04)
+![image](https://github.com/abhay39/company-project/assets/84112755/e3528da9-1290-4b46-93fb-b893fadf6a9d)
+![image](https://github.com/abhay39/company-project/assets/84112755/756bbb17-3095-4f4a-85e0-c2691a31eeef)
+![image](https://github.com/abhay39/company-project/assets/84112755/a2ef5b4f-1470-46aa-8740-c98a5ce01ff9)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+# Task Manager App
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Welcome to the Task Manager App! This application is designed to help you manage your tasks efficiently by providing a user-friendly interface to add tasks, assign categories, and track their status. The app leverages the power of React and includes the convenient feature of drag-and-drop functionality through the `react-beautiful-dnd` library.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Task Form:**
+   - Use the task form to easily add new tasks.
+   - Assign a category to each task for better organization.
 
-### `npm run build`
+2. **Status Tracking:**
+   - Keep track of the status of each task (e.g., Added, Started, Completed).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Categories:**
+   - Categorize your tasks based on their nature or priority.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Drag-and-Drop:**
+   - Utilize the drag-and-drop feature to effortlessly rearrange tasks within and between categories.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+Follow these steps to get the Task Manager App up and running on your local machine:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    git clone https://github.com/your-username/task-manager-app.git
+    cd task-manager-app
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    npm install
+    ```
 
-## Learn More
+3. Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    npm start
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to access the Task Manager App.
 
-### Code Splitting
+## Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The project utilizes the following key dependencies:
 
-### Analyzing the Bundle Size
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd): A beautiful and accessible drag-and-drop library for React.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+Feel free to contribute to the development of this project. If you encounter any issues or have suggestions for improvements, please open an [issue](https://github.com/your-username/task-manager-app/issues) or submit a [pull request](https://github.com/your-username/task-manager-app/pulls).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+This project is licensed under the [MIT License](LICENSE.md).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy task managing! 🚀
